@@ -64,7 +64,7 @@ header #branding h1{
 header nav{
     float:right;
     margin-top:10px;
-    
+
 }
 header .highlight, header .current a{
     color:darkgreen;
@@ -77,18 +77,24 @@ header a:hover{
 /* Showcase */
 #showcase {
     min-height:400px;
-    background:url(../img/SAM_2161.jpg) no-repeat 0;
+    background:url(../img/trees.jpg) no-repeat 0;
+    background-position:top;
     background-size:1500px;
     text-align:center;
-    color:#ffffff;
+    color:rgb(0, 0, 0);
 }
 #showcase h1{
     margin-top:100px;
     font-size:55px;
     margin-bottom:10px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 #showcase p{
     font-size:20px;
+    color: white;
+    text-shadow: 2px 2px black;
+
 }
 /*newsletter*/
 #newsletter{
@@ -148,17 +154,21 @@ ul a:hover{
 }
 #description{
     text-align:center;
+
 }
 /* Boxes */
 
 #boxes{
     margin-top:20px;
+    background-size:1500px;
+    background-position: center;
 }
 #boxes .box{
     float:left;
     text-align:center;
     width:30%;
     padding:10px;
+
     }
 
 #boxes .box img{
@@ -170,7 +180,7 @@ aside#sidebar{
     width:30%;
     margin-top:10px;
 }
-aside#sidebar .quote input, 
+aside#sidebar .quote input,
 aside#sidebar .quote textarea{
     width:90%;
     padding:5px;
@@ -201,11 +211,11 @@ footer{
 
 /*Media Queries*/
 @media(max-width: 768px){
-    header #branding, 
-    header nav, 
-    header nav li, 
-    #newsletter h1, 
-    #newsletter form, 
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
     #boxes .box,
     article#main-col,
     aside#sidebar{
@@ -227,5 +237,5 @@ footer{
         width:100%;
         margin-bottom:5px;
     }
-    
+
 }
